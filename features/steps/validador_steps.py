@@ -15,5 +15,5 @@ def step_impl(context):
 
 @then(u'devo receber {resposta}')
 def step_impl(context, resposta):
-    assert str(context.resposta) == resposta, '%s should be %s' % (context.senha, resposta) 
+    assert str(context.resposta) == resposta, '%s deve ser %s' % (context.senha, resposta) 
 
