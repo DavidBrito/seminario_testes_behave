@@ -25,14 +25,3 @@ def validaSenha(senha):
     valido = False
 
   return valido
-
-def main():
-  senha = 'yestes12#'
-
-  if (validaSenha(senha)):
-    print("Senha valida!")
-  else:
-    print("Senha invalida!")
-
-if __name__ == '__main__':
-  main()

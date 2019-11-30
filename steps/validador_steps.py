@@ -1,4 +1,6 @@
-from modules.validadorSenha import validaSenha
+import sys
+sys.path.append("..")
+from validadorSenha import validaSenha
 from behave import *
 
 @given(u'que eu tenho uma senha {senha}')
